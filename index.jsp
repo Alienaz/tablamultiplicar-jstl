@@ -11,7 +11,7 @@
 <form action="tabla.jsp">
 <table>
 <tr>
-Ingrese un numero:
+<label>Ingrese un numero:</label>
 <td><input type="text" name="num"></td>
 </tr>
 <tr>
