@@ -11,11 +11,11 @@
 <title>Tabla</title>
 </head>
 <body>
-<form action="tabla.jsp">
+<form action="tabla.jsp" name="miformu">
 <table>
 <tr>
 <label>Ingrese un numero:</label>
-<td><input type="text" name="num"></td>
+<td><input id="num" type="text" name="num" pattern="[0-9]+" required></td>
 </tr>
 <tr>
 <td><input type="submit" value="multiplicar" class="nes-btn is-success"></td>

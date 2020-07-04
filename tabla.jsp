@@ -11,8 +11,11 @@
 <title>Insert title here</title>
 </head>
 <body>
+<div class="nes-container with-title is-centered">
+<p class="title"> Tabla del ${param.num}</p>
 <c:forEach var = "i" begin = "0" end = "12">
  ${param.num} * ${i} = <c:out value ="${param.num * i}"/><br/>
 </c:forEach>
+</div>
 </body>
 </html>
